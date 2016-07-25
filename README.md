@@ -4,4 +4,4 @@ A Java Client for Beijing Institute of Technology Campus Web
 请使用命令行启动。  
 可执行文件在bin文件夹中，使用格式如下：  
 java -jar BitWebClient.jar <login|logout> <username> <password>  
-GitHub地址：https://github.com/yAnXImIN/BitWebClient。目前未发现其他可用接口，欢迎Pull requests。:)  
+目前未发现其他可用接口，欢迎Pull requests。:)  
