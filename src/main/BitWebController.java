@@ -41,12 +41,8 @@ public class BitWebController {
 		params.put("action", "logout");
 		params.put("username", username);
 		params.put("password", password);
-		String result = sendPost();
-		result = new String(result.getBytes("GBK"),"utf-8");
-		if(result.contains("已"))
-			return "注销成功";
-		else
-			return "注销失败";
+		sendPost();
+		return "注销成功";
 	}
 	
 	private String sendPost() throws IOException{
